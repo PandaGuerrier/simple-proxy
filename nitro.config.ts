@@ -8,7 +8,6 @@ export default defineNitroConfig({
   runtimeConfig: {
     version: pkg.version
   },
-  external: ["jose"],
   alias: {
     "@": join(__dirname, "src")
   }
